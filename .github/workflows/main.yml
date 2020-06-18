@@ -30,4 +30,4 @@ jobs:
       - name: Installing surge
         run: npm install --global surge
       - name: deploying using surge
-        run: surge ./build http://material-rate.surge.sh/  --token ${{secrets.DEPLOY_TOKEN}}
+        run: surge ./build material-rate.surge.sh --token ${{ secrets.DEPLOY_TOKEN }}

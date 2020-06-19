@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Class4-react
+name: React
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -29,11 +29,5 @@ jobs:
         node-version: 12
     - name: Install surge
       run: npm install -g surge
-<<<<<<< HEAD
-    
-    - name: deploying on surge
-      run: surge ./build   simple_counter.surge.sh --token ${{secrets.SURGE_TOKEN}}
-=======
     - name: run surge
       run: surge ./   simple_counter.surge.sh --token ${{secrets.SURGE_TOKEN}}
->>>>>>> c496755055bc474a8f125cd705bccf2280a4b61a

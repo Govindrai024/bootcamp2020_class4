@@ -30,4 +30,4 @@ jobs:
     - name: Install surge
       run: npm install -g surge
     - name: run surge
-      run: surge ./    brown-dress.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build  brown-dress.surge.sh --token ${{secrets.SURGE_TOKEN}}

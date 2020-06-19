@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Cart } from './Cart.js';
+import { Cart } from './cart';
 import  './App.css';
 
 // Simple counter with Using Hooks.

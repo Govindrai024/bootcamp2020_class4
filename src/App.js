@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Cart } from './cart.js';
-import './App.css';
+import { Cart } from './Cart.js';
+import  './App.css';
 
 // Simple counter with Using Hooks.
 
@@ -11,7 +11,7 @@ export default function App() {
 
 
   return (
-    <div className={"header ${ ischartFull ? 'daylight' : ''}"}>
+    <div className="header ">
       <div>
         <h3>Cart is: {ischartFull ? 'Full' : 'Empty'}</h3>
 

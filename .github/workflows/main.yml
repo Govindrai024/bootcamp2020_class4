@@ -31,11 +31,11 @@ jobs:
         # Yarn command
         cmd: install # npm install/ yarn install
     
-    - name: Creating build
+    - name: creating build
       run: yarn build
     
     - name: installing surge  
-      run: npm install -g surge
+      run: npm install -global surge
     
     - name: deploying on surge
-      run: surge ./build   bootcampt_classfour.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build   simple_counter.surge.sh --token ${{secrets.SURGE_TOKEN}}

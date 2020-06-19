@@ -38,4 +38,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying on surge
-      run: surge ./build  brown-dress.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build   motionless-plants.surge.sh --token ${{secrets.CLASS4}}
